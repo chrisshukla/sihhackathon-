@@ -22,4 +22,3 @@ with open("myscrappeddata.txt","a")as file:
         cleaned_text=re.sub('\s*\n\s*', '\n',box).strip()
         print(cleaned_text)
         file.write(cleaned_text+"\n")
-
